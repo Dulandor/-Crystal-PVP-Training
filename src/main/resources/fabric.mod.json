@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "crystaltrainingmod",
+  "version": "${version}",
+  "name": "Crystal Training",
+  "description": "A Mod for CrystalPvp Training in Singleplayer",
+  "authors": ["Dulandor, J0iP"],
+  "contact": {
+    "repo": "https://github.com/Dulandor/CrystalTrainingMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/CrystalTrainingMod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dulandor.crystaltrainingmod.client.CrystalTrainingModClient"
+    ],
+    "main": [
+      "dulandor.crystaltrainingmod.CrystalTrainingMod"
+    ]
+  },
+  "mixins": [
+    "CrystalTrainingMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
