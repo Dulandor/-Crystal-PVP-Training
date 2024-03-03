@@ -15,6 +15,7 @@ The mod provides the following commands:
 - #### /k1: Grants essential items for training purposes.
 - #### /zombie: Summons a training bot to practice PVP skills.
 - #### /totem: Initiates totem training.
+- #### /totem: type the command again to stop the totem training.
 - #### /arena: Switches to an flat training world.
 - #### /overworld: Switches back to the main world.
 
